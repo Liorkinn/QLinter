@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setting_cluster_linter>
+<cluster hostname="127.0.0.1" vhost="127.0.0.1" shost="127.0.0.1" alias="REPLSERV" port="5432" options="connect_timeout=1" 
+ path1="/mnt/linter/STATE"
+ path2="/mnt/linter/arc/STATE">
+</cluster>
+<cluster hostname="109.107.174.57" vhost="127.0.0.1" shost="127.0.0.1" alias="MY" port="49123" options="connect_timeout=1"
+ path1="/mnt/linter/STATE"
+ path2="/mnt/linter/arc/STATE">
+</cluster>
+<cluster hostname="109.107.174.57" vhost="127.0.0.1" shost="127.0.0.1" alias="ERROR" port="49123" options="connect_timeout=1">
+</cluster>
+</setting_cluster_linter>
